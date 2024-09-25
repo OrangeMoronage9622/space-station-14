@@ -1273,3 +1273,29 @@
     containers:
       circuit_holder: !type:ContainerSlot
       board: !type:Container
+
+- type: entity
+  parent: BaseComputer
+  id: SellPowerComputer
+  name: sell power computer
+  description: Sell power computer that sells power.
+  components:
+    - type: Sprite
+      layers:
+        - map: ["computerLayerBody"]
+          state: computer
+        - map: ["computerLayerKeyboard"]
+          state: generic_keyboard
+        - map: ["computerLayerScreen"]
+          state: sensors
+        - map: ["computerLayerKeys"]
+          state: atmos_key
+        - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+          state: generic_panel_open
+    #Stole communication console code
+    - type: ActivatableUI
+      key: enum.CommunicationsConsoleUiKey.Key
+    - type: UserInterface
+      interfaces:
+       enum.CommunicationsConsoleUiKey.Key:
+         type: CommunicationsConsoleBoundUserInterface
