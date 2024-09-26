@@ -1,6 +1,6 @@
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
-using Content.Shared.Communications;
+using Content.Shared.SellPower;
 using Robust.Client.UserInterface;
 using Robust.Shared.Configuration;
 using Robust.Shared.Timing;
@@ -23,7 +23,7 @@ namespace Content.Client.SellPower
         {
             base.Open();
 
-            _menu = this.CreateWindow<SellPowerMenu>
+            _menu = this.CreateWindow<SellPowerMenu>();
         }
     }
 }

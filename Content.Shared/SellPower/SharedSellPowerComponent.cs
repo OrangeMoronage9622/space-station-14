@@ -3,7 +3,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.SellPower
 {
     [Virtual]
-    public partial class SharedSellPowerComponenet : component
+    public partial class SharedSellPowerComponenet : Component
     {
 
     }
@@ -13,6 +13,7 @@ namespace Content.Shared.SellPower
     {
 
     }
+
     [Serializable, NetSerializable]
     public enum CommunicationsConsoleUiKey
     {

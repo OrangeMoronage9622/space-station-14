@@ -20,8 +20,6 @@ namespace Content.Client.SellPower
         {
             IocManager.InjectDependecies(this);
             RobustXamlLoader.Load(this);
-
-            
         }
     }
 }
