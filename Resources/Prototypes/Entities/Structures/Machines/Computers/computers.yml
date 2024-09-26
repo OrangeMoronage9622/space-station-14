@@ -1294,8 +1294,8 @@
           state: generic_panel_open
     #Stole communication console code
     - type: ActivatableUI
-      key: enum.CommunicationsConsoleUiKey.Key
+      key: enum.SellPowerUiKey.Key
     - type: UserInterface
       interfaces:
        enum.CommunicationsConsoleUiKey.Key:
-         type: CommunicationsConsoleBoundUserInterface
+         type: SellPowerBoundUserInterface

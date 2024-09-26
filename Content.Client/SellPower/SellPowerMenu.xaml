@@ -1,1 +1,8 @@
-<controls:FancyWindow xmlns="https://spacestation14.io">
+<controls:FancyWindow xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+    Title="Loc 'comms-console-menu-title'"
+    MinSize="400 225">
+    <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="5"
+                  <Button Name="SellPowerButton" Text="Sell Power!" StyleClasses="OpenLeft" Access="Public"/>
+    </BoxContainer>
+</controls:FancyWindow>
