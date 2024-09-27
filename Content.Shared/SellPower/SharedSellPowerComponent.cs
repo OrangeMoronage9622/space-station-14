@@ -15,7 +15,7 @@ namespace Content.Shared.SellPower
     }
 
     [Serializable, NetSerializable]
-    public enum CommunicationsConsoleUiKey
+    public enum SellPowerUiKey
     {
         Key
     }

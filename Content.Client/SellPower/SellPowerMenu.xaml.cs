@@ -16,9 +16,8 @@ namespace Content.Client.SellPower
         [Dependency] private readonly IGameTiming _timing = default!;
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
-        public SellPower()
+        public SellPowerMenu()
         {
-            IocManager.InjectDependecies(this);
             RobustXamlLoader.Load(this);
         }
     }
