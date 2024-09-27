@@ -1297,5 +1297,5 @@
       key: enum.SellPowerUiKey.Key
     - type: UserInterface
       interfaces:
-       enum.CommunicationsConsoleUiKey.Key:
+       enum.SellPowerUiKey.Key:
          type: SellPowerBoundUserInterface
