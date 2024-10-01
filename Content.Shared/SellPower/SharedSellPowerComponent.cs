@@ -3,7 +3,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.SellPower
 {
     [Virtual]
-    public partial class SharedSellPowerComponenet : Component
+    public partial class SharedSellPowerComponent : Component
     {
 
     }
